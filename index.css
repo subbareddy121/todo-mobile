@@ -1,0 +1,325 @@
+.text{
+    margin-top: 5%;
+    margin-left: 40%;
+    font: 25px sans-serif;
+}
+.l{
+    color: rgb(214, 206, 206);
+    font: 50px sans-serif;
+}
+.plus{
+    position: absolute;
+    right: 35%;
+    top: 12%;
+    
+    
+}
+.boxs{
+    width: 330px;
+    height: 30px;
+    border: 1px solid lightpink;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 20px;
+    font: 20px sans-serif;
+    color: rgb(139, 134, 134);
+    box-shadow: 3px 4px rgb(214, 206, 206) ;
+}
+.arr{
+    
+    margin-left: 588px;
+    margin-top: 104px;
+}
+
+.brk{
+    position: absolute;
+    top: 592px;
+    left: 845px;
+}
+.box{
+    text-align: center;
+    border: 1px solid tomato;
+    width: 250px;
+    height: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    font: 30px sans-serif;
+    box-shadow: 5px 7px 3px rgb(165, 164, 164);
+    background-color: #fbfeff;
+    margin-top: 50px;
+}
+.box1{
+    font: 1em sans-serif;
+    color: tomato;
+    text-decoration: none;
+}
+.u{
+    font: 1em sans-serif;
+    text-decoration: line-through;
+    color: tomato;
+}
+.g{
+    text-decoration: none;
+    position: absolute;
+    right: 42%;
+    top: 13%;
+    font-size: 42px;
+    color: rgb(0, 0, 0);
+    
+}
+iframe{
+    width: 100%;
+    height: 720px;
+    filter: blur(8px);
+}
+.nl{
+    text-align: center;
+   border: 2px solid red;
+   color: red;
+   margin: auto;
+   border-radius: 10px;
+   width: 300px;
+   height: 150px;
+   padding: 25px;
+   position: absolute;
+   top: 300px;
+   bottom: 300px;
+   left: 600px;
+   font-size: 20px;
+   background-color: #fbfeff;
+}
+.eb{
+    border-color: red;
+    font-size: 25px;
+    width: 160px;
+    border-radius: 5px;
+}
+.but{
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    width: 70px;
+    height: 30px;
+    
+}
+@media screen and (min-width:320px) and (max-width:699px){
+    
+.text {
+    margin-top: 25%;
+    margin-left: 10%;
+    font: 20px sans-serif;
+}
+.l{
+    color: rgb(214, 206, 206);
+    font: 41px sans-serif;
+
+}
+.plus {
+    position: absolute;
+    right: 20%;
+    top: 14%;
+    width: 20px;
+    height: 5px;
+    
+}
+    .boxs {
+        width: 224px;
+        height: 26px;
+        border: 1px solid lightpink;
+        margin-top: 30px;
+        border-radius: 5px;
+        padding: 10px;
+        font: 20px sans-serif;
+        color: rgb(139, 134, 134);
+        box-shadow: 3px 4px rgb(214 206 206);
+    }
+    iframe{
+        margin-top: 90%;
+        
+        width: 270%;
+        height: 920px;
+        filter: blur(25px);
+    }
+    .nl{
+        text-align: center;
+       border: 2px solid red;
+       color: red;
+       margin: auto;
+       border-radius: 10px;
+       width: 420px;
+       height: 270px;
+       padding: 25px;
+       position: absolute;
+       top: 1200px;
+       left: 250px;
+       font-size: 45px;
+       background-color: #fbfeff;
+    }
+    .eb{
+        border-color: red;
+        font-size: 35px;
+        width: 220px;
+        border-radius: 10px;
+    }
+    .but{
+        background-color: red;
+        border-radius: 15px;
+        color: white;
+        width: 110px;
+        height: 50px;
+        font-size: 30px;
+        
+    }   
+    .arr{
+    
+    margin-left: 60px;
+    margin-top: 124px;
+}
+
+.brk{
+    position: absolute;
+    top: 660px;
+    left: 360px;
+}
+.box{
+    text-align: center;
+    border: 1px solid tomato;
+    width: 290px;
+    height: 450px;
+    padding: 30px;
+    border-radius: 10px;
+    font: 40px sans-serif;
+    box-shadow: 5px 7px 3px rgb(165, 164, 164);
+    background-color: #fbfeff;
+    margin-top: 50px;
+}
+.box1{
+    font: 1em sans-serif;
+    color: tomato;
+    text-decoration: none;
+}
+.u{
+    font: 1em sans-serif;
+    text-decoration: line-through;
+    color: tomato;
+}
+.g{
+    text-decoration: none;
+    position: absolute;
+    right: -30%;
+    top: 18%;
+    font-size: 52px;
+    color: rgb(0, 0, 0);
+    
+}
+}
+@media screen and (min-width:700px) and (max-width:1024px){
+    .text {
+        margin-top: 25%;
+        margin-left: 23%;
+        
+        font: 30px sans-serif;
+        background-position: 0px;
+    }
+    .l{
+        color: rgb(214, 206, 206);
+        font: 61px sans-serif;
+    
+    }
+    .plus {
+        position: absolute;
+        right: 25%;
+        top: 20%;
+    }
+    .boxs {
+        width: 330px;
+        height: 38px;
+        border: 1px solid lightpink;
+        margin-top: 30px;
+        border-radius: 10px;
+        padding: 27px;
+        font: 22px sans-serif;
+        color: rgb(139, 134, 134);
+        box-shadow: 3px 4px rgb(214 206 206);
+    }
+    iframe{
+        margin-top: 60%;
+        
+        width: 200%;
+        height: 1020px;
+        filter: blur(20px);
+    }
+    .nl{
+        text-align: center;
+       border: 2px solid red;
+       color: red;
+       margin: auto;
+       border-radius: 10px;
+       width: 520px;
+       height: 320px;
+       padding: 30px;
+       position: absolute;
+       top: 1200px;
+       left: 500px;
+       font-size: 45px;
+       background-color: #fbfeff;
+    }
+    .eb{
+        border-color: red;
+        font-size: 45px;
+        width: 220px;
+        border-radius: 10px;
+    }
+    .but{
+        background-color: red;
+        border-radius: 25px;
+        color: white;
+        width: 150px;
+        height: 80px;
+        font-size: 40px;
+        
+    }   
+    .arr{
+    
+        margin-left: 210px;
+        margin-top: 220px;
+    }
+    
+    .brk{
+        position: absolute;
+        top: 770px;
+        left: 508px;
+    }
+    .box{
+        text-align: center;
+        border: 1px solid tomato;
+        width: 300px;
+        height: 450px;
+        padding: 30px;
+        border-radius: 10px;
+        font: 40px sans-serif;
+        box-shadow: 5px 7px 3px rgb(165, 164, 164);
+        background-color: #fbfeff;
+        margin-top: 50px;
+    }
+    .box1{
+        font: 1em sans-serif;
+        color: tomato;
+        text-decoration: none;
+    }
+    .u{
+        font: 1em sans-serif;
+        text-decoration: line-through;
+        color: tomato;
+    }
+    .g{
+        text-decoration: none;
+        position: absolute;
+        right: 25%;
+        top: 20%;
+        font-size: 52px;
+        color: rgb(0, 0, 0);
+        
+    }
+
+}
