@@ -1,6 +1,6 @@
 .text{
     margin-top: 5%;
-    margin-left: 40%;
+    margin-left: 20%;
     font: 25px sans-serif;
 }
 .l{
@@ -10,21 +10,40 @@
 .plus{
     position: absolute;
     right: 35%;
-    top: 12%;
+    top: 11%;
     
     
 }
-.boxs{
-    width: 330px;
-    height: 30px;
-    border: 1px solid lightpink;
-    margin-top: 30px;
-    border-radius: 10px;
+.boc{
+    text-align: center;
+    border: 1px solid tomato;
+    width: 191px;
+    height: 276px;
     padding: 20px;
-    font: 20px sans-serif;
-    color: rgb(139, 134, 134);
-    box-shadow: 3px 4px rgb(214, 206, 206) ;
+    border-radius: 7px;
+    font: 1em sans-serif;
+    box-shadow: 5px 7px 3px rgb(165 164 164);
+    background-color: #fbfeff;
+    margin-top: 10px;
 }
+.boc1{
+    font: 1em sans-serif;
+    color: tomato;
+    text-decoration: none;
+}
+.u{
+    font: 1em sans-serif;
+    text-decoration: line-through;
+    color: tomato;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    width: 90%;
+   
+}
+
 .arr{
     
     margin-left: 588px;
@@ -122,9 +141,9 @@ iframe{
     height: 5px;
     
 }
-    .boxs {
+    .boc {
         width: 224px;
-        height: 26px;
+        height: 21px;
         border: 1px solid lightpink;
         margin-top: 30px;
         border-radius: 5px;
@@ -132,6 +151,15 @@ iframe{
         font: 20px sans-serif;
         color: rgb(139, 134, 134);
         box-shadow: 3px 4px rgb(214 206 206);
+        overflow: hidden;
+    }
+    .list{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 5px;
+        width: 90%;
+       
     }
     iframe{
         margin-top: 90%;
@@ -231,16 +259,25 @@ iframe{
         right: 25%;
         top: 20%;
     }
-    .boxs {
-        width: 330px;
-        height: 38px;
+    .boc {
+        width: 344px;
+        height: 41px;
         border: 1px solid lightpink;
         margin-top: 30px;
-        border-radius: 10px;
-        padding: 27px;
-        font: 22px sans-serif;
+        border-radius: 5px;
+        padding: 10px;
+        font: 30px sans-serif;
         color: rgb(139, 134, 134);
         box-shadow: 3px 4px rgb(214 206 206);
+        overflow: hidden;
+    }
+    .list{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 20px;
+        width: 90%;
+       
     }
     iframe{
         margin-top: 60%;
